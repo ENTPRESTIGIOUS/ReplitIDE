@@ -13,3 +13,7 @@ ctx.lineTo(-5, 5);
 ctx.fill();
 
 ctx.strokeRect(-5, -5, 10, 10);
+
+ctx.beginPath();
+ctx.arc(0, 0, 5, 0, 2 * Math.PI);
+ctx.stroke();
