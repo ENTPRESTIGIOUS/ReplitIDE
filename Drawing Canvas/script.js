@@ -11,3 +11,5 @@ ctx.lineTo(0, -5);
 ctx.lineTo(5, 5);
 ctx.lineTo(-5, 5);
 ctx.fill();
+
+ctx.strokeRect(-5, -5, 10, 10);
